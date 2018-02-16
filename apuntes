@@ -60,3 +60,21 @@ git log: cuando hiciste un comit cuando y fecha y que fue lo que hiciste.
 :q salir de la terminal
 git diff: cambios que se hicieron  +++ lineas agregadas --- eliminadas
 creamos un archivo .gitignore y asi ponemos los archivos que no queremos agregarlos o trackearlo
+git add .  agrega todo dentro de la carpeta relativa
+git commit -a: todo de un jalon
+RTFM: read the fuck manual
+secure shell: conexion de manera segura de una temrinal a otra,  tcp/ip
+RSA: lleva un encriptacion 
+
+ssh-keygen -t rsa -C a298014@uach.mx  : tipo de llave -t  esa privada -C a un correo
+salt key: es una frase para estar mas seguro despues de subir
+repositorios remotos que pongas en otra maquina o en una nube
+creamos uno remoto a local
+
+
+git remote
+origin: nombre del repositiorio remoto 
+dentro de settings
+ssh and GPG keys
+git push enviar cambios repositorio local al remoto direccion y rama a donde va
+-u la primera vez que se sube al remoto
