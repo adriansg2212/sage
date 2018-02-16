@@ -61,7 +61,7 @@ git log: cuando hiciste un comit cuando y fecha y que fue lo que hiciste.
 git diff: cambios que se hicieron  +++ lineas agregadas --- eliminadas
 creamos un archivo .gitignore y asi ponemos los archivos que no queremos agregarlos o trackearlo
 git add .  agrega todo dentro de la carpeta relativa
-git commit -a: todo de un jalon
+git commit -m: todo de un jalon
 RTFM: read the fuck manual
 secure shell: conexion de manera segura de una temrinal a otra,  tcp/ip
 RSA: lleva un encriptacion 
@@ -78,3 +78,8 @@ dentro de settings
 ssh and GPG keys
 git push enviar cambios repositorio local al remoto direccion y rama a donde va
 -u la primera vez que se sube al remoto
+
+------------
+git remote
+git remote add origin git@github.com:adriansg2212/sage.git
+git push -u origin master
