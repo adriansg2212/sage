@@ -1,0 +1,62 @@
+asincrono vs sincrono
+
+asincrono:proccesos independientes
+Asincronía hace 
+referencia al suceso que no tiene lugar en total correspondencia temporal con otro suceso.
+
+sincrono: Los motores síncronos son un tipo de motor de corriente alterna en el que la 
+rotación del eje está sincronizada con la frecuencia de la corriente de alimentación;
+ el período de rotación es exactamente igual a un número entero de ciclos de CA
+
+bloqueantes y no bloqueantes
+bloquea la pantalla para terminar su proccesos.
+lo estoy usando no lo puedes usar.
+no lo bloquea y siguen los proccesos.
+lo estoy usando todos los pueden usar.
+M:V.C: modelo vista controlador  
+
+el readfile necesita 2 parametros que voy a leer y el resultado de si fue exitoso o no
+
+
+
+dependencias locales:  son aquellas que necesita nuestro proeycto para que corra
+mas sin embargo no son necesarias en el equipo de computo
+
+dependencias globales: necesitan estar instaladas dentro del sistema operativo
+porque nuestro poryecto neceista jalar ese recurso.
+
+tipo de instalacion se destuingue
+npm locales
+
+las globales tiene que estar en un archivo.
+
+las dependecias locales se guardan en la carpeta y se deben agregar en nuestro archivo 
+package.json --save agregar al archivo package.json npm install bajara dependencias.
+
+------------------------------------------------------------
+git
+
+CVS= content version system
+
+repositorio: controlador de version
+
+centralizados:varios clientes y todo lo que hacen pegarle al mismo repositorio
+
+descentralizados: varios clientes apuntan a variso repositorio,, git mercurial bazaar
+github gitlab.
+
+
+-----------------------------
+iniciar git
+inicializar
+ al final una / es una carpeta /.git/
+git init
+git add "cual arhcivo"
+git status donde esta 
+git rm-cached <file> remover un archivo
+git checkout restablece el archivo antes de ser modificado, la ultima foto
+git commit: tomar foto, le agregas -m "para agregar la descripcion de la foto"
+git log: cuando hiciste un comit cuando y fecha y que fue lo que hiciste. 
+:q salir de la terminal
+git diff: cambios que se hicieron  +++ lineas agregadas --- eliminadas
+creamos un archivo .gitignore y asi ponemos los archivos que no queremos agregarlos o trackearlo

@@ -5,6 +5,8 @@ const log4js = require('log4js');
 const logger = log4js.getLogger();
 logger.level = 'debug';
 
+
+
 http.createServer((require, response) =>{
     fs.readFile('./index.html', (error,html)=>{//callback => errores en la primera variable err, el 2do 
     //es el resultado si fue correctamente
